@@ -1,5 +1,6 @@
 mod lauxlib;
+mod lua;
 
 fn main() {
-    println!("Hello, world!");
+    crate::lua::main_main();
 }
